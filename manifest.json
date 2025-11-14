@@ -1,22 +1,84 @@
 {
-    "name": "Toko Fashion & Kosmetik",
-    "short_name": "TokoKu",
-    "start_url": "https://jualan-laku.blogspot.com/",
-    "scope": "https://jualan-laku.blogspot.com/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#e91e63",
-    "orientation": "portrait",
-    "icons": [
+  "name": "Toko Fashion & Kosmetik",
+  "short_name": "TokoKu",
+  "description": "Toko Fashion & Kosmetik online dengan produk terbaru dan harga terbaik. Belanja cepat melalui WhatsApp.",
+  
+  "start_url": "https://jualan-laku.blogspot.com/",
+  "scope": "https://jualan-laku.blogspot.com/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#e91e63",
+  
+  "categories": [
+    "shopping",
+    "fashion",
+    "beauty",
+    "lifestyle",
+    "ecommerce"
+  ],
+
+  "icons": [
+    {
+      "src": "https://alex101-stack.github.io/tokoku-pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://alex101-stack.github.io/tokoku-pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Fashion",
+      "short_name": "Fashion",
+      "description": "Lihat produk fashion terbaru",
+      "url": "https://jualan-laku.blogspot.com/search/label/fashion",
+      "icons": [
         {
-            "src": "https://alex101-stack.github.io/tokoku-pwa/icon-192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "https://alex101-stack.github.io/tokoku-pwa/icon-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
+          "src": "https://alex101-stack.github.io/tokoku-pwa/icon-192.png",
+          "sizes": "192x192"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Kosmetik",
+      "short_name": "Kosmetik",
+      "description": "Produk kecantikan dan kosmetik",
+      "url": "https://jualan-laku.blogspot.com/search/label/kosmetik",
+      "icons": [
+        {
+          "src": "https://alex101-stack.github.io/tokoku-pwa/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Promo",
+      "short_name": "Promo",
+      "description": "Lihat promo dan diskon khusus",
+      "url": "https://jualan-laku.blogspot.com/search/label/promo",
+      "icons": [
+        {
+          "src": "https://alex101-stack.github.io/tokoku-pwa/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "https://alex101-stack.github.io/tokoku-pwa/screenshot-home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "Halaman utama toko"
+    }
+  ],
+
+  "prefer_related_applications": false
 }
+
